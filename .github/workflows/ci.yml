@@ -51,3 +51,4 @@ jobs:
           docker push ${{ secrets.DOCKER_USERNAME }}/mlops-api:1.0
           docker tag mlops-api:1.0 ${{ secrets.DOCKER_USERNAME }}/mlops-api:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/mlops-api:latest
+
